@@ -1,0 +1,59 @@
+.h1 {
+  font-size: 120px;
+  margin-left: -300px;
+  color: #353535;
+  border-radius: 10px;
+}
+
+.headingperkenalan {
+  background-color: #dbad4b;
+  animation: transisixy 1s;
+}
+
+.bio {
+  font-size: 20px;
+  animation: fadein 8s;
+}
+
+@keyframes transisixy {
+  0% {
+    margin-left: 600px;
+  }
+  100% {
+    transform: translate(15px);
+    margin-left: -15px;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .h1 {
+    font-size: 35px;
+    margin-left: 0px;
+    color: #353535;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .h1 {
+    font-size: 25px;
+    margin-left: 0px;
+    color: #353535;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bio {
+    font-size: 15px;
+  }
+}
