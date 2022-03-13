@@ -1,0 +1,28 @@
+.form-search {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /* margin-left: 10px; */
+}
+
+.search {
+  border-radius: 5px 0 0 5px;
+}
+
+.button-search {
+  position: relative;
+  padding: 8px;
+  left: 0px;
+  border: 2px solid #0067ee;
+  background-color: #0067ee;
+  color: #fafafa;
+  width: auto;
+  border-radius: 0 5px 5px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
